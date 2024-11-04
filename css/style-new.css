@@ -3,7 +3,6 @@ html { font-family: 'Work Sans', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Work Sans', sans-serif; }
 }
-
 body{font-family:Work Sans,sans-serif;font-size:16px;font-weight:400!important;color:#383838}
 *{font-family:Work Sans,sans-serif;font-weight:400}
 a:hover,
@@ -36,6 +35,8 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 .treatment_all_heading_page{margin-bottom:0;font-size:28px;color:#212121;font-weight:400; text-align: center;}
 .treatment_all_heading_page span{font-weight:600;color:#187fc3}
 }
+.view_more_commmon_btn{margin-top:30px;padding:10px 20px;color:#fff;font-size:16px;text-transform:uppercase;font-weight:500;border-radius:30px;line-height:normal;background-color:#1f83c5}
+.view_more_commmon_btn:hover{color:#fff}
 
 /*==========================================*/
 /* Form Form css*/
@@ -242,7 +243,8 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 .faq_sec_pad{padding-top:50px;padding-bottom:50px}
 .faq-box-cls{padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #b1b1b1}
 .panel-title{margin-bottom:0;text-decoration:none!important}
-.panel-title a{text-decoration:none!important;color:#212121;font-size:21px;font-weight:600;line-height:24px;padding:0}
+.panel-title a{text-decoration:none!important;color:#187fc3;font-size:21px;font-weight:600;line-height:24px;padding:0}
+.panel-title a:hover{color:#187fc3;}
 .panel-title a.collapsed{text-decoration:none!important;color:#212121;font-size:21px;font-weight:400;line-height:24px;padding:0}
 .panel-title a span{padding:10px;margin-right:10px;background:linear-gradient(359deg,#03619a 0,#047dc7 100%);color:#fff;border-radius:50%;font-size:18px;font-weight:600}
 .panel-title a.collapsed span{color:#fff;background:#000;font-weight:500}
@@ -251,7 +253,7 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 .para-faq{padding:15px 0 0 0;font-size:16px;color:#212121}
 .panel-title .btn-link:focus{box-shadow:none}
 @media screen and (max-width:600px){
-.panel-title a{width:300px;text-decoration:none!important;color:#212121;font-size:16px;font-weight:600;line-height:21px;padding:0}
+.panel-title a{width:300px;text-decoration:none!important;color:#187fc3;font-size:16px;font-weight:600;line-height:21px;padding:0}
 .panel-title a.collapsed{text-decoration:none!important;color:#212121;font-size:16px;font-weight:500;line-height:21px;padding:0}
 .para-faq{padding:10px 0 0 0;font-size:16px;color:#636363}
 .faq-box-cls{padding-bottom:15px;margin-bottom:15px;border-bottom:1px solid #b1b1b1}
