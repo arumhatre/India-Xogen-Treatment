@@ -1,4 +1,4 @@
-@import url('../fonts/Work_Sans.css.css');
+@import url('../fonts/Work_Sans.css');
 html { font-family: 'Work Sans', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Work Sans', sans-serif; }
@@ -57,6 +57,24 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 .form_custom_heading_testmonilas{margin-bottom:0;font-size:32px;text-align:left;font-weight:400;color:#212121;line-height:normal}
 .form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
 .grid-divider>[class*=col-]:nth-child(n+2):after{content:"";position:absolute;top:0;bottom:0;border-left:1px dashed #047ac3;height:auto;left:-1px}
+@media(max-width:1550px){
+.testmonilas_form_custom label{font-size:14px}
+}
+@media(max-width:1400px){
+.testmonilas_form_custom label{font-size:12px}
+.check_box_lable label{padding-top:6px;font-size:10px;color:#212121!important;margin-bottom:0}
+.btn_custom_testmonilas{font-size:14px}
+.form_section_div{margin-top:0px}
+}
+@media(max-width:1200px){
+.form_custom_heading_testmonilas{margin-bottom:12px;font-size:21px;text-align:left;font-weight:400;color:#212121;line-height:normal}
+.testmonilas_form_custom label{font-size:10px}
+.testmonilas_form_custom input{height:calc(1.5em + .4rem + 2px)}
+.btn_custom_testmonilas{font-size:10px}
+}
+@media(max-width:860px){
+.form_custom_heading_testmonilas{margin-bottom:12px;font-size:18px;text-align:left;font-weight:400;color:#212121;line-height:normal}
+}
 @media(max-width:600px){
 .form_section_div{margin-top:20px}
 .form_custom_bg_testmonilas{width:92%;background:#fff;padding:20px;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
@@ -64,11 +82,12 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 .check_box_lable label{padding-top:0;font-size:10px;color:#212121!important;margin-bottom:10px}
 .grid-divider>[class*=col-]:nth-child(n+2):after{border-left:none}
 .form-group{margin-bottom:12px}
+.testmonilas_form_custom input{height:calc(1.5em + .75rem + 2px)}
 .testmonilas_form_custom input.has-value+label,.testmonilas_form_custom input:focus+label,.testmonilas_form_custom textarea.has-value+label,.testmonilas_form_custom textarea:focus+label{top:-1px;font-size:10px;font-weight:500;color:#1d81c4;background-color:#fff;padding:5px 6px 0 6px}
 .form_custom_heading_testmonilas{margin-bottom:12px;font-size:24px;text-align:center;font-weight:400;color:#212121;line-height:normal}
 .form_custom_heading_testmonilas span{font-weight:600;color:#187fc3}
+.btn_custom_testmonilas{font-size:16px}
 }
-
 /*==========================================*/
 /* Banner css*/
 /*==========================================*/
@@ -108,8 +127,8 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 .screenshot_slider .owl-dots{display:none}
 .screenshot_slider .owl-item img{width:100%}
 .screenshot_slider .owl-next,.screenshot_slider .owl-prev{position:absolute;top:-5px;height:100%}
-.screenshot_slider .owl-prev{left:-20px}
-.screenshot_slider .owl-next{right:-20px}
+.screenshot_slider .owl-prev{left:-15px}
+.screenshot_slider .owl-next{right:-15px}
 @media (max-width:600px){
 .real_result_sec_pad{padding:30px 0 30px 0}
 }
@@ -122,8 +141,8 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 #googlerating_slider .owl-dots{display:none}
 #googlerating_slider .owl-item img{width:100%}
 #googlerating_slider .owl-next,#googlerating_slider .owl-prev{position:absolute;top:-5px;height:100%}
-#googlerating_slider .owl-prev{left:-20px}
-#googlerating_slider .owl-next{right:-20px}
+#googlerating_slider .owl-prev{left:-15px}
+#googlerating_slider .owl-next{right:-15px}
 .google-rating-box{height:260px;padding:20px 8px 0;background-color:#fff;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
 .google-rating-cls-para{padding-top:10px;font-size:16px;color:#636363}
 .google-rating-subheading{font-size:21px;font-weight:600;margin-bottom:0;padding-bottom:0}
@@ -159,8 +178,8 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 #testimonilas_slider .owl-dots{display:none}
 #testimonilas_slider .owl-item img{width:100%}
 #testimonilas_slider .owl-next,#testimonilas_slider .owl-prev{position:absolute;top:-5px;height:100%}
-#testimonilas_slider .owl-prev{left:-20px}
-#testimonilas_slider .owl-next{right:-20px}
+#testimonilas_slider .owl-prev{left:-15px}
+#testimonilas_slider .owl-next{right:-15px}
 
 /*==========================================*/
 /* Lets talk css*/
@@ -169,11 +188,16 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 .talk_about_heading{font-size:55px;font-weight:700;color:#fff;margin-bottom:0}
 .talk_about_btn{width:100%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#1f83c5;border-radius:50px;font-weight:600;font-size:24px;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 .talk_about_btn:hover{color:#1f83c5!important}
+@media (max-width:1024px){
+.talk_about_heading{font-size:35px}
+.talk_about_btn{font-size:16px}
+}
 @media (max-width:600px){
 .talk_about_heading{font-size:32px;font-weight:700;color:#fff;margin-bottom:20PX;text-align:center}
 .talk_about_btn{margin:0 auto;width:80%;margin-bottom:0;height:calc(1.5em + .75rem + 2px);line-height:1.6;color:#1f83c5;border-radius:50px;font-weight:600;font-size:18px;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 .lets_talk_sec{margin-top:40px;}
 }
+
 
 /*==========================================*/
 /* How css*/
@@ -195,8 +219,8 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 #blue_box_slider .owl-dots{display:none}
 #blue_box_slider .owl-item img{width:100%}
 #blue_box_slider .owl-next,#blue_box_slider .owl-prev{position:absolute;top:-5px;height:100%}
-#blue_box_slider .owl-prev{left:-20px}
-#blue_box_slider .owl-next{right:-20px}
+#blue_box_slider .owl-prev{left:-15px}
+#blue_box_slider .owl-next{right:-15px}
 .blue_caption_box{padding-top:60px}
 .hover-container{position:relative;overflow:hidden;height:350px;cursor:pointer}
 .hover-container img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
@@ -211,6 +235,9 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 .hover-container.active:hover{opacity:1}
 .hover-container.active:hover .caption p{margin:5px 0 0;font-size:16px;opacity:0;height:0;overflow:hidden;transition:opacity .5s ease,height .5s ease}
 .hover-container.active .caption:hover{opacity:1}
+@media (max-width:1024px){
+.caption h3{font-size: 21px;}
+}
 @media (max-width:600px){
    .blue_caption_box{padding-top:40px} 
 }
